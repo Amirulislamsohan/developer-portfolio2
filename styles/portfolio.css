@@ -156,3 +156,98 @@ main {
 .card-article {
     color: #757575;
 }
+
+/* summary section ............................................ */
+.containers-summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary {
+    margin-bottom: 113px;
+}
+
+
+.con-title {
+    font-size: 30px;
+}
+
+.address-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.summary-description {
+    font-size: 16px;
+    color: #757575;
+}
+
+hr {
+    margin: 30px 0;
+    color: #D1D1D1;
+    width: 558px;
+}
+
+.btn {
+    text-align: center;
+}
+
+/*  footer use ........................................... */
+footer {
+    background-color: #FFF8F3;
+    width: 1600px;
+    height: 780px;
+    padding: 0px 200px;
+}
+
+.footer-containers {
+    display: flex;
+    gap: 100px;
+
+}
+
+.footer-container {
+    width: 400px;
+    margin-top: 130px;
+
+
+
+}
+
+.footer-container .sec-title {
+    text-align: left;
+}
+
+.footer-description {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+form {
+    display: block;
+    align-items: center;
+}
+
+input {
+    padding: 18px 30px;
+    width: 464px;
+    height: 64px;
+}
+
+form .btn {
+    text-align: left;
+}
+
+textarea {
+    padding: 18px 30px;
+
+}
+
+form input,
+div,
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+}
